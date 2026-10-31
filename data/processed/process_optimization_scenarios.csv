@@ -1,0 +1,31 @@
+transition,transition_count,applications,candidate_type,scenario_reduction_pct,baseline_median_gap_hours,hypothetical_median_gap_hours,baseline_p90_gap_hours,hypothetical_p90_gap_hours,illustrative_aggregate_hours_reduced
+W_Call after offers [suspend] -> W_Call after offers [resume],1428,1242,Same activity with material gap: inspect lifecycle semantics,10.0,93.8,84.42,118.33,106.5,13394.81
+W_Call after offers [suspend] -> W_Call after offers [resume],1428,1242,Same activity with material gap: inspect lifecycle semantics,20.0,93.8,75.04,118.33,94.66,26789.62
+W_Call after offers [suspend] -> W_Call after offers [resume],1428,1242,Same activity with material gap: inspect lifecycle semantics,30.0,93.8,65.66,118.33,82.83,40184.44
+W_Call after offers [suspend] -> A_Cancelled [complete],163,163,Outcome/lifecycle transition: verify meaning,10.0,643.43,579.09,670.78,603.7,10487.99
+W_Call after offers [suspend] -> A_Cancelled [complete],163,163,Outcome/lifecycle transition: verify meaning,20.0,643.43,514.75,670.78,536.62,20975.98
+W_Call after offers [suspend] -> A_Cancelled [complete],163,163,Outcome/lifecycle transition: verify meaning,30.0,643.43,450.4,670.78,469.55,31463.97
+W_Call after offers [suspend] -> W_Call after offers [ate_abort],1112,1112,Outcome/lifecycle transition: verify meaning,10.0,90.68,81.61,263.06,236.76,10083.84
+W_Call after offers [suspend] -> W_Call after offers [ate_abort],1112,1112,Outcome/lifecycle transition: verify meaning,20.0,90.68,72.55,263.06,210.45,20167.69
+W_Call after offers [suspend] -> W_Call after offers [ate_abort],1112,1112,Outcome/lifecycle transition: verify meaning,30.0,90.68,63.48,263.06,184.14,30251.53
+O_Sent (mail and online) [complete] -> A_Cancelled [complete],96,96,Outcome/lifecycle transition: verify meaning,10.0,740.48,666.43,742.25,668.02,7108.62
+O_Sent (mail and online) [complete] -> A_Cancelled [complete],96,96,Outcome/lifecycle transition: verify meaning,20.0,740.48,592.39,742.25,593.8,14217.25
+O_Sent (mail and online) [complete] -> A_Cancelled [complete],96,96,Outcome/lifecycle transition: verify meaning,30.0,740.48,518.34,742.25,519.57,21325.87
+W_Call after offers [suspend] -> O_Create Offer [complete],468,436,Material inter-activity gap: investigate process context,10.0,75.82,68.24,434.04,390.63,3548.35
+W_Call after offers [suspend] -> O_Create Offer [complete],468,436,Material inter-activity gap: investigate process context,20.0,75.82,60.66,434.04,347.23,7096.7
+W_Call after offers [suspend] -> O_Create Offer [complete],468,436,Material inter-activity gap: investigate process context,30.0,75.82,53.07,434.04,303.82,10645.05
+O_Sent (mail and online) [complete] -> W_Call after offers [ate_abort],152,152,Outcome/lifecycle transition: verify meaning,10.0,143.26,128.94,335.11,301.6,2177.57
+O_Sent (mail and online) [complete] -> W_Call after offers [ate_abort],152,152,Outcome/lifecycle transition: verify meaning,20.0,143.26,114.61,335.11,268.09,4355.15
+O_Sent (mail and online) [complete] -> W_Call after offers [ate_abort],152,152,Outcome/lifecycle transition: verify meaning,30.0,143.26,100.28,335.11,234.57,6532.72
+W_Call incomplete files [suspend] -> O_Accepted [complete],196,196,Material inter-activity gap: investigate process context,10.0,90.42,81.38,423.9,381.51,1772.33
+W_Call incomplete files [suspend] -> O_Accepted [complete],196,196,Material inter-activity gap: investigate process context,20.0,90.42,72.34,423.9,339.12,3544.65
+W_Call incomplete files [suspend] -> O_Accepted [complete],196,196,Material inter-activity gap: investigate process context,30.0,90.42,63.3,423.9,296.73,5316.98
+O_Sent (mail and online) [complete] -> W_Call after offers [resume],181,181,Material inter-activity gap: investigate process context,10.0,64.56,58.11,117.43,105.69,1168.62
+O_Sent (mail and online) [complete] -> W_Call after offers [resume],181,181,Material inter-activity gap: investigate process context,20.0,64.56,51.65,117.43,93.94,2337.24
+O_Sent (mail and online) [complete] -> W_Call after offers [resume],181,181,Material inter-activity gap: investigate process context,30.0,64.56,45.2,117.43,82.2,3505.86
+A_Concept [complete] -> W_Complete application [start],740,740,Material inter-activity gap: investigate process context,10.0,23.18,20.86,45.09,40.58,1715.09
+A_Concept [complete] -> W_Complete application [start],740,740,Material inter-activity gap: investigate process context,20.0,23.18,18.54,45.09,36.08,3430.19
+A_Concept [complete] -> W_Complete application [start],740,740,Material inter-activity gap: investigate process context,30.0,23.18,16.22,45.09,31.57,5145.28
+W_Call incomplete files [suspend] -> W_Call incomplete files [ate_abort],876,659,Outcome/lifecycle transition: verify meaning,10.0,18.66,16.79,92.77,83.5,1634.68
+W_Call incomplete files [suspend] -> W_Call incomplete files [ate_abort],876,659,Outcome/lifecycle transition: verify meaning,20.0,18.66,14.93,92.77,74.22,3269.36
+W_Call incomplete files [suspend] -> W_Call incomplete files [ate_abort],876,659,Outcome/lifecycle transition: verify meaning,30.0,18.66,13.06,92.77,64.94,4904.05

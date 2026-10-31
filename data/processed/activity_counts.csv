@@ -1,0 +1,25 @@
+activity,event_count
+W_Validate application,15302
+W_Call incomplete files,10419
+W_Call after offers,9684
+W_Complete application,8666
+O_Create Offer,2637
+O_Created,2637
+W_Handle leads,2556
+O_Sent (mail and online),2407
+A_Validating,2391
+A_Concept,1592
+A_Create Application,1592
+A_Accepted,1592
+A_Complete,1586
+O_Returned,1411
+A_Incomplete,1381
+O_Cancelled,1314
+A_Submitted,1039
+O_Accepted,1025
+A_Pending,1025
+A_Cancelled,358
+O_Refused,298
+A_Denied,209
+O_Sent (online only),152
+W_Assess potential fraud,124

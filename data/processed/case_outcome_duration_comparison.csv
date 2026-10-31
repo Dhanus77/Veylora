@@ -1,0 +1,21 @@
+event,group,case_count,median_hours,mean_hours,p90_hours
+Cancellation event,Event present,358,803.24,839.89,1342.31
+Cancellation event,Event absent,1234,347.21,440.18,840.63
+Denial event,Event present,209,363.25,415.03,763.46
+Denial event,Event absent,1383,410.11,547.45,1090.69
+Application completion event,Event present,1586,404.13,531.6,1051.87
+Application completion event,Event absent,6,57.58,124.22,310.26
+Incomplete event,Event present,926,399.57,512.13,986.69
+Incomplete event,Event absent,666,409.55,555.0,1140.94
+Pending event,Event present,1025,339.77,445.31,856.16
+Pending event,Event absent,567,735.72,683.28,1252.11
+Offer accepted event,Event present,1025,339.77,445.31,856.16
+Offer accepted event,Event absent,567,735.72,683.28,1252.11
+Offer cancelled event,Event present,768,718.31,687.22,1241.6
+Offer cancelled event,Event absent,824,324.6,383.59,687.39
+Offer refused event,Event present,207,363.25,415.04,744.65
+Offer refused event,Event absent,1385,410.11,547.26,1087.94
+Offer returned event,Event present,1295,355.57,459.88,880.78
+Offer returned event,Event absent,297,803.43,836.07,1339.77
+Accepted field,Accepted=True,1052,379.73,512.09,1029.47
+Accepted field,Accepted=False,540,448.64,565.08,1074.5

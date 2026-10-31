@@ -1,0 +1,13 @@
+# Abstract
+
+Business processes often involve delays, repetitive activities, rework, and inefficient resource utilization, making it difficult for organizations to identify improvement opportunities and evaluate operational changes. This project presents **Veylora: Autonomous Business Process Optimization using Process Mining, Causal Inference, and Tool-Using AI Agents**, a local-first business process intelligence application designed to analyze process execution data and support evidence-based optimization.
+
+The system uses process mining and event-log analysis to examine business process behavior, identify bottlenecks, detect repetitive activities, and prioritize potential improvement opportunities. Historical process data from the BPI Challenge 2017 dataset is used for process analysis and predictive evaluation. Machine learning models are evaluated for process outcome and duration prediction, with their performance compared against baseline approaches.
+
+To investigate potential interventions, the system incorporates a causal inference component that estimates treatment effects using randomized treatment and control groups. Since historical observational data alone does not establish causal relationships, the system explicitly distinguishes historical findings from experimentally generated evidence. A configurable process simulator generates synthetic experiments to evaluate hypothetical interventions under controlled conditions.
+
+Furthermore, Veylora incorporates a tool-using optimization agent that selects analytical tools based on identified process opportunities, executes experiments, applies evaluation guardrails, and produces ranked recommendations with execution traces and audit records. The application provides eight interactive workspaces for process exploration, predictive evaluation, scenario analysis, evidence governance, AI-assisted analysis, and autonomous optimization.
+
+The project demonstrates an integrated approach to combining process mining, predictive analytics, causal experimentation, and tool-using agents within a local-first application. It aims to provide a transparent and reproducible foundation for investigating business process improvements while clearly communicating the limitations of historical evidence and simulated results.
+
+**Keywords:** Process Mining, Business Process Optimization, Causal Inference, Machine Learning, Predictive Analytics, Synthetic Simulation, AI Agents, Explainable Decision Support.

@@ -1,0 +1,25 @@
+concept:name,applications,total_completed_instances,applications_with_repeats,total_extra_completed_instances,max_extra_instances
+A_Validating,1303,2391,767,1088,5
+O_Create Offer,1592,2637,667,1045,7
+O_Created,1592,2637,667,1045,7
+O_Sent (mail and online),1567,2407,556,840,7
+O_Cancelled,768,1314,323,546,7
+W_Validate application,778,1273,368,495,4
+A_Incomplete,926,1381,330,455,4
+O_Returned,1295,1411,112,116,2
+O_Refused,207,298,59,91,4
+O_Sent (online only),133,152,15,19,3
+W_Call incomplete files,180,188,8,8,1
+A_Create Application,1592,1592,0,0,0
+A_Cancelled,358,358,0,0,0
+A_Complete,1586,1586,0,0,0
+A_Accepted,1592,1592,0,0,0
+A_Concept,1592,1592,0,0,0
+A_Pending,1025,1025,0,0,0
+A_Denied,209,209,0,0,0
+A_Submitted,1039,1039,0,0,0
+O_Accepted,1025,1025,0,0,0
+W_Call after offers,23,23,0,0,0
+W_Assess potential fraud,11,11,0,0,0
+W_Complete application,919,919,0,0,0
+W_Handle leads,252,252,0,0,0

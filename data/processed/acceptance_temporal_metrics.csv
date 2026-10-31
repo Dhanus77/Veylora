@@ -1,0 +1,2 @@
+feature_set,target_definition,features,train_cases,test_cases,train_start,train_end,test_start,test_end,train_accepted_rate,test_accepted_rate,balanced_accuracy,roc_auc
+intake_only_logistic_regression,Last recorded Accepted value on O_Create Offer [complete] for each application,case:LoanGoal;case:RequestedAmount;case:ApplicationType;start_month;start_weekday,1273,319,2016-01-01 09:51:15.304000+00:00,2016-02-26 14:41:57.616000+00:00,2016-02-27 08:23:37.993000+00:00,2016-12-31 11:58:06.892000+00:00,0.6755695208169678,0.7053291536050157,0.5017494089834516,0.5227423167848699

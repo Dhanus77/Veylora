@@ -1,0 +1,10 @@
+outcome_or_event,applications_with_event,percentage_of_applications,median_duration_with_event_hours,median_duration_without_event_hours
+Cancellation event,358,22.49,803.24,347.21
+Denial event,209,13.13,363.25,410.11
+Application completion event,1586,99.62,404.13,57.58
+Incomplete event,926,58.17,399.57,409.55
+Pending event,1025,64.38,339.77,735.72
+Offer accepted event,1025,64.38,339.77,735.72
+Offer cancelled event,768,48.24,718.31,324.6
+Offer refused event,207,13.0,363.25,410.11
+Offer returned event,1295,81.34,355.57,803.43

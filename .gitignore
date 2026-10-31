@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Data and generated artifacts: do not publish the event log by accident
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/README.md
+/artifacts/
+/reports/generated/
+*.joblib
+*.pkl
+*.pickle
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Development backups
+*.pre_*_backup
+*.backup
+*.bak
+
+# Local temporary files
+*.tmp
+*.log
+
+# Veylora runtime artifacts required by the application
+!/data/processed/case_level_dataset.csv
+!/data/processed/activity_counts.csv
+!/data/processed/activity_transitions.csv
+!/data/processed/activity_wait_statistics.csv
+!/data/processed/improvement_recommendations.csv
+!/data/processed/process_optimization_scenarios.csv
+!/data/processed/case_variant_mapping.csv
+!/data/processed/process_variant_summary_v2.csv
+!/data/processed/variant_outcome_analysis.csv
+!/data/processed/duration_model_metrics_v2.csv
+!/data/processed/acceptance_model_metrics.csv
+!/data/processed/acceptance_cross_validation_metrics.csv
+!/data/processed/acceptance_feature_comparison.csv
+!/data/processed/acceptance_temporal_metrics.csv
+!/data/processed/temporal_drift_analysis.csv
+!/data/processed/case_outcome_summary.csv
+!/data/processed/case_outcome_duration_comparison.csv
+!/data/processed/case_feature_correlations.csv
+!/data/processed/work_lifecycle_summary.csv
+!/data/processed/lifecycle_transition_summary.csv
+!/data/processed/rework_summary_v2.csv
+!/data/processed/final_case_states.csv
+!/data/processed/last_completed_activity_audit.csv
